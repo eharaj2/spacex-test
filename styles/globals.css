@@ -14,3 +14,19 @@ a {
 * {
   box-sizing: border-box;
 }
+
+html {
+  font-family: "Lucida Sans", sans-serif;
+}
+
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+  }
+}
